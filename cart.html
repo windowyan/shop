@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <script type="text/javascript" src="bootstrap/js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="font/iconfont.css">
+</head>
+<body style="background-color:#f2f2f2;">
+
+
+<!-- 购物车 -->
+<div class="container-fluid" style="background-color:#f2f2f2;position: absolute;height: 100%;width: 100%;margin-bottom: 140px;">
+    <div class="row cart">
+      <div class="col-xs-2"></div>
+      <div class="col-xs-8 carts-shop">
+          <span>购物车(5)</span>
+      </div>
+      <div class="col-xs-2 cart-font">
+        <span id="cart">编辑</span>
+      </div> 
+    </div> 
+    <div style="margin-top: 48px;"></div>
+    <!-- 商品 -->
+    <div class="row cart-shopping">
+         <div class="col-xs-1 cart-shop-1">
+              <label class="checkbox-name">
+               <input type="checkbox" class="remmber">
+                <span class="iconfont cart-shop-m icon-baseline-radio_button_unchecked-px" style="font-size: 22px;color: #ccc;"></span>
+              </label>
+         </div>
+         <div class="col-xs-3" style="padding-right: 0;">
+           <div class="cart-img">
+              <img src="img/3.jpg" class="img-responsive">
+           </div>
+         </div>
+         <div class="col-xs-6" style="padding-right: 0;padding-left: 8px;">
+           <div class="cart-detail font-shop">
+             <p>
+              <span class="color-font">特价</span>
+               数据包就是打开v技术大版v就是悲剧三百ajsfcjksagjcgaj
+             </p>
+           </div>
+         </div>
+         <div class="col-xs-2 cart-right" style="padding: 0;">
+           <div class="cart-money">
+             <span class="shop-cart-money-cost" data-money='169'>￥169.00</span>
+           </div>
+           <div class="cart-money-right">
+             <span class="shop-cart shop-cart-lose">-</span>
+             <span class="number" data-value="2">2</span>
+             <span class="shop-cart shop-cart-add">+</span>
+           </div>
+         </div>
+    </div>
+
+    <div class="row cart-shopping">
+         <div class="col-xs-1 cart-shop-1">
+              <label class="checkbox-name">
+                <input type="checkbox" class="remmber" checked>
+                <span class="iconfont cart-shop-m icon-baseline-radio_button_unchecked-px" style="font-size: 22px;color: #ccc;"></span>
+              </label>
+         </div>
+         <div class="col-xs-3" style="padding-right: 0;">
+           <div class="cart-img">
+              <img src="img/3.jpg" class="img-responsive">
+           </div>
+         </div>
+         <div class="col-xs-6" style="padding-right: 0;padding-left: 8px;">
+           <div class="cart-detail font-shop">
+             <p>
+              <span class="color-font">特价</span>
+               数据包就是打开v技术大版v就是悲剧三百ajsfcjksagjcgaj
+             </p>
+           </div>
+         </div>
+         <div class="col-xs-2 cart-right" style="padding: 0;">
+           <div class="cart-money">
+            <span class="shop-cart-money-cost" data-money='169'>￥169.00</span>
+           </div>
+           <div class="cart-money-right">
+           <span class="shop-cart shop-cart-lose">-</span>
+             <span class="number" data-value="2">2</span>
+            <span class="shop-cart shop-cart-add">+</span>
+         </div>
+    </div>
+
+    
+
+    
+
+
+</div>
+
+
+ 
+
+<!-- 导航 -->
+<div class="container-fluid bottom-footer">
+
+  <div class="row cart-footer-button row-delete">
+    <div class="col-xs-3 span-footer-cart">
+      <label class="checkbox-name">
+               <input type="checkbox" class="remmber">
+                <span class="iconfont icon-baseline-radio_button_unchecked-px" style="font-size: 22px;color: #ccc;" id="span"></span>
+      </label>
+      <span style="padding-left: 8px;">全选</span>
+    </div>
+    <div class="col-xs-9 cart-bottom">
+      <div class="cart-bottom-shop">
+        <span>总计(不含税)：</span>
+        <span class="shop-cart-sum" data-sum='0'>￥0.00</span>
+      </div>
+      <div class="cart-button">
+        <span class="span">结算(<span>1</span>)</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="row cart-footer-button cart-footer-delete" style="display: none;">
+    <div class="col-xs-3 span-footer-cart">
+      <label class="checkbox-name">
+               <input type="checkbox" class="remmber">
+                <span class="iconfont icon-baseline-radio_button_unchecked-px" style="font-size: 22px;color: #ccc;" id="span-delete"></span>
+      </label>
+      <span style="padding-left: 8px;">全选</span>
+    </div>
+    <div class="col-xs-9 cart-bottom-mmm-k">
+      <div class="cart-button-mm">
+        <span>删除</span>
+      </div>
+    </div>
+  </div>
+
+
+     <div class="row">
+      <div class="col-xs-3 nav-fixed-bottom">
+        <a class="nav-bottom" id="m" href="index.html">
+          <span class="iconfont icon-shouye1"></span>
+          <span class="m-footer-font">首页</span>
+        </a>
+      </div>
+       <div class="col-xs-3 nav-fixed-bottom">
+        <a class="nav-bottom" id="p" href="new.html">
+          <span class="iconfont icon-rexiaochanpin"></span>
+          <span class="m-footer-font">热销商品</span>
+        </a>
+      </div>
+
+       <div class="col-xs-3 nav-fixed-bottom">
+        <a class="nav-bottom color-hover" id="p" href="cart.html">
+          <span class="iconfont icon-htmal5icon29"></span>
+          <span class="m-footer-font">购物车</span>
+        </a>
+      </div>
+      <div class="col-xs-3 nav-fixed-bottom">
+        <a class="nav-bottom" id="p" href="personal.html">
+          <span class="iconfont icon-yonghudianji"></span>
+          <span class="m-footer-font">会员中心</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+ 
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('#myCarousel').carousel({
+    interval: 2000
+    });
+    $('#myCarousel-gao').carousel({
+    interval: 2000
+    });
+  
+     $("input[type='checkbox']").each(function(index,item){
+      //console.log(index);
+      console.log($(item).prop('checked'));
+      if ($(item).prop('checked')) {
+        $(item).attr('checked',false);
+        $(this).siblings('.iconfont').removeClass('icon-duigouxiao').addClass('icon-baseline-radio_button_unchecked-px');
+      }
+      
+    });
+
+
+     // 删除购物车
+     var panduan=1;
+     $("#cart").click(function(){
+         if (panduan==1) {
+          $('.row-delete').css('display','none');
+          $('.cart-footer-delete').css('display','flex');
+          panduan=2;
+          $(this).text('完成');
+         }else{
+          $('.row-delete').css('display','flex');
+          $('.cart-footer-delete').css('display','none');
+          panduan=1;
+          $(this).text("编辑");
+         }
+
+     })
+
+     $('#span-delete').click(function(){
+       if (!$(this).siblings('.remmber').prop('checked')) {
+        $("input[type='checkbox']").each(function(index,item){
+      //console.log(index);
+
+      // 选中的情况
+        $(item).attr('checked',true);
+        $(this).siblings('.iconfont').removeClass('icon-baseline-radio_button_unchecked-px').addClass('icon-duigouxiao');
+       })
+        $(this).removeClass('icon-baseline-radio_button_unchecked-px').addClass('icon-duigouxiao');
+      }else{
+        $("input[type='checkbox']").each(function(index,item){
+      //console.log(index);
+      
+      // 没有选中的情况
+        $(item).attr('checked',false);
+        $(this).siblings('.iconfont').removeClass('icon-duigouxiao').addClass('icon-baseline-radio_button_unchecked-px');
+       })
+        $(this).removeClass('icon-duigouxiao').addClass('icon-baseline-radio_button_unchecked-px');
+      }
+
+    })
+
+
+     // 选中的情况下
+
+     // 还差当按钮选中时添加商品数量时
+     $('.cart-shop-m').click(function(){
+      console.log($(this).siblings('.remmber').prop('checked'));
+      if (!$(this).siblings('.remmber').prop('checked')) {
+        let m=parseInt($(this).parents(".col-xs-1").siblings('.col-xs-2').find('.number').attr('data-value'));
+        let number=parseInt($(this).parents(".col-xs-1").siblings('.col-xs-2').find('.shop-cart-money-cost').attr('data-money'))*m;
+        let sum=parseInt($('.shop-cart-sum').attr('data-sum'));
+        sum+=number;
+        $('.shop-cart-sum').attr('data-sum',sum);
+        let sumchar="￥"+sum;
+        $('.shop-cart-sum').text(sumchar);
+
+        //console.log($(this).parents(".col-xs-1").siblings('.col-xs-2').find('.shop-cart-money-cost').attr('data-money'));
+        $(this).removeClass('icon-baseline-radio_button_unchecked-px').addClass('icon-duigouxiao');
+      }else{
+        let m=parseInt($(this).parents(".col-xs-1").siblings('.col-xs-2').find('.number').attr('data-value'));
+        let numbers=parseInt($(this).parents(".col-xs-1").siblings('.col-xs-2').find('.shop-cart-money-cost').attr('data-money'))*m;
+
+        let sums=parseInt($('.shop-cart-sum').attr('data-sum'));
+        sums-=numbers;
+        $('.shop-cart-sum').attr('data-sum',sums);
+        let sumchar_m="￥"+sums;
+        $('.shop-cart-sum').text(sumchar_m);
+        $(this).removeClass('icon-duigouxiao').addClass('icon-baseline-radio_button_unchecked-px');
+      }
+    })
+
+    
+
+    // 全选或全不选
+    $('#span').click(function(){
+       if (!$(this).siblings('.remmber').prop('checked')) {
+        $("input[type='checkbox']").each(function(index,item){
+      //console.log(index);
+        $(item).attr('checked',true);
+        $(this).siblings('.iconfont').removeClass('icon-baseline-radio_button_unchecked-px').addClass('icon-duigouxiao');
+       })
+        $(this).removeClass('icon-baseline-radio_button_unchecked-px').addClass('icon-duigouxiao');
+      }else{
+        $("input[type='checkbox']").each(function(index,item){
+      //console.log(index);
+        $(item).attr('checked',false);
+        $(this).siblings('.iconfont').removeClass('icon-duigouxiao').addClass('icon-baseline-radio_button_unchecked-px');
+       })
+        $(this).removeClass('icon-duigouxiao').addClass('icon-baseline-radio_button_unchecked-px');
+      }
+
+    })
+
+    $('.shop-cart-lose').click(function(){
+      let number=parseInt($(this).siblings('.number').attr('data-value'));
+      if (number>1) {
+        number-=1;
+      }
+      $(this).siblings('.number').attr('data-value',number);
+      $(this).siblings('.number').text(number);
+    })
+
+    $('.shop-cart-add').click(function(){
+      let number=parseInt($(this).siblings('.number').attr('data-value'));
+      if (number>=0) {
+        number+=1;
+      }
+      $(this).siblings('.number').attr('data-value',number);
+      $(this).siblings('.number').text(number);
+    })
+
+  })
+</script>
+</body>
+</html>

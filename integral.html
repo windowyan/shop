@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <script type="text/javascript" src="bootstrap/js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/address.css">
+    <link rel="stylesheet" type="text/css" href="font/iconfont.css">
+</head>
+<body>
+  <!-- 订单中心 -->
+  <div class="container-fluid nav-order" style="background-image: url(img/4.png);background-size: cover;background-repeat: no-repeat;">
+    <div class="row">
+      <div class="col-xs-12 order">
+        <a href="personal.html" style="text-decoration: none;color: white;">
+          <span class="iconfont icon-xiangzuo"></span>
+        </a>
+        <span style="font-size: 14px;font-weight: 600;color: white;padding-right: 20px;">我的积分</span>
+        <span style="color: red;font-size: 12px;visibility: hidden;"></span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12 integral">
+        <span class="integral-span">386</span>
+        <div class="integral-bottom">
+          <span>----------</span>
+          <span style="margin: 0 10px;">我的积分</span>
+          <span>----------</span>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+  <div class="container-fluid integral-position" style="position: absolute;z-index: 120;width: 100%;">
+    <div class="row integral-item" style="margin: 0;background-color: white;">
+      <div class="col-xs-4 integral-item-index" data-toggle="modal" data-target="#myModal">
+        <span class="iconfont icon-shezhi" style="color: rgb(255, 102, 0);"></span>
+        <span class="m_kk">赚取积分</span>
+      </div>
+      <div class="col-xs-4 integral-item-index" data-toggle="modal" data-target="#myModal-item-1">
+        <span class="iconfont icon-guizeshuoming"></span>
+        <span class="m_kk">积分规则</span>
+      </div>
+      <div class="col-xs-4 integral-item-index" data-toggle="modal" data-target="#myModal-item-2">
+        <span class="iconfont icon-duihuanshangcheng
+" style="color: rgb(255, 72, 88);"></span>
+        <span class="m_kk">积分兑换</span>
+      </div>
+    </div>
+    <div class="row item">
+      <div class="col-xs-12 item-number">
+        <div class="item-left">
+          <span class="day-item">每日签到</span>
+          <span class="span-item">2017-03-26</span>
+        </div>
+        <span class="number-value">+6</span>
+      </div>
+      <div class="col-xs-12 item-number">
+         <div class="item-left">
+          <span class="day-item">每日签到</span>
+          <span class="span-item">2017-03-26</span>
+        </div>
+        <span class="number-value">+6</span>
+      </div>
+      <div class="col-xs-12 item-number">
+         <div class="item-left">
+          <span class="day-item">每日签到</span>
+          <span class="span-item">2017-03-26</span>
+        </div>
+        <span class="number-value">+6</span>
+      </div>
+      <div class="col-xs-12 item-number">
+         <div class="item-left">
+          <span class="day-item">每日签到</span>
+          <span class="span-item">2017-03-26</span>
+        </div>
+        <span class="number-value">+6</span>
+      </div>
+      <div class="col-xs-12 item-number">
+        <div class="item-left">
+          <span class="day-item">每日签到</span>
+          <span class="span-item">2017-03-26</span>
+        </div>
+        <span class="number-value">+6</span>
+      </div>
+      <div class="col-xs-12 item-number">
+         <div class="item-left">
+          <span class="day-item">每日签到</span>
+          <span class="span-item">2017-03-26</span>
+        </div>
+        <span class="number-value">+6</span>
+      </div>
+    </div>
+  </div>
+
+<!-- 模态框（Modal） -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" 
+            aria-hidden="true">×
+        </button>
+        <h4 class="modal-title" id="myModalLabel">
+          赚取积分
+        </h4>
+      </div>
+      <div class="modal-body">
+        规则
+      </div>
+      <div class="modal-footer">
+        
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<div class="modal fade" id="myModal-item-1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" 
+            aria-hidden="true">×
+        </button>
+        <h4 class="modal-title" id="myModalLabel">
+          积分
+        </h4>
+      </div>
+      <div class="modal-body">
+        规则
+      </div>
+      <div class="modal-footer">
+        
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+<div class="modal fade" id="myModal-item-2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" 
+            aria-hidden="true">×
+        </button>
+        <h4 class="modal-title" id="myModalLabel">
+          兑换积分
+        </h4>
+      </div>
+      <div class="modal-body">
+        规则
+      </div>
+      <div class="modal-footer">
+        
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+  
+</body>
+</html>

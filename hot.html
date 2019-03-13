@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <script type="text/javascript" src="bootstrap/js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="font/iconfont.css">
+</head>
+<body>
+
+  <div id="myCarousel" class="carousel slide">
+    <!-- 轮播（Carousel）指标 -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>   
+    <!-- 轮播（Carousel）项目 -->
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src="img/1.jpg" alt="First slide" >
+        </div>
+        <div class="item">
+            <img src="img/2.png" alt="Second slide" >
+        </div>
+        <div class="item">
+            <img src="img/3.jpg" alt="Third slide" >
+        </div>
+    </div>
+</div>
+
+<!-- 最热的商品 -->
+
+<div class="hot" style="margin-bottom: 65px">
+  <div class="container-fluid">
+    <div class="row" style="background-color: white;margin-bottom: 10px;">
+       <!-- <div class="hot-title">
+         <span>最新商品</span>
+       </div> -->
+       <div class="col-xs-6 hot-news-top">
+         <a class="hot-title-a" href="new.html">
+           <span>最新商品</span>
+         </a>
+       </div>
+       <div class="col-xs-6 hot-news-top hot-color">
+         <a class="hot-title-a" href="hot.html">
+           <span>最热商品</span>
+         </a>
+       </div>
+
+    </div>
+    <!-- 最热商品 -->
+    <div class="row hot-shop">
+       <div class="hot-row-shop">
+         <div class="col-xs-6 shop">
+           <div class="hot-img">
+             <img src="img/shop/1.jpg" class="img-responsive">
+           </div>
+         </div>
+         <div class="col-xs-6 shop">
+           <div class="hot-shop-cart">
+            <div class="hot-font-shop">
+              <p>计算机看过v军事报道v就据本地数据库时代的开始v开始科技部v角度思考</p>
+             </div>
+            <div class="cart-shop">
+             <span class="left">￥99</span>
+             <span class="right iconfont icon-gouwuche"></span>
+            </div>
+           </div>
+         </div>
+       </div>
+
+       <div class="hot-row-shop">
+         <div class="col-xs-6 shop">
+           <div class="hot-img">
+             <img src="img/shop/1.jpg" class="img-responsive">
+           </div>
+         </div>
+         <div class="col-xs-6 shop">
+           <div class="hot-shop-cart">
+            <div class="hot-font-shop">
+              <p>计算机看过v军事报道v就据本地数据库时代的开始v开始科技部v角度思考</p>
+             </div>
+            <div class="cart-shop">
+             <span class="left">￥99</span>
+             <span class="right iconfont icon-gouwuche"></span>
+            </div>
+           </div>
+         </div>
+    </div>
+    <div class="hot-row-shop">
+         <div class="col-xs-6 shop">
+           <div class="hot-img">
+             <img src="img/shop/1.jpg" class="img-responsive">
+           </div>
+         </div>
+         <div class="col-xs-6 shop">
+           <div class="hot-shop-cart">
+            <div class="hot-font-shop">
+              <p>计算机看过v军事报道v就据本地数据库时代的开始v开始科技部v角度思考</p>
+             </div>
+            <div class="cart-shop">
+             <span class="left">￥99</span>
+             <span class="right iconfont icon-gouwuche"></span>
+            </div>
+           </div>
+         </div>
+       </div>
+    </div>
+    
+    </div>
+
+
+
+
+    </div>
+
+
+  </div>
+
+  <div class="container-fluid bottom-footer">
+     <div class="row">
+      <div class="col-xs-3 nav-fixed-bottom">
+        <a class="nav-bottom" id="m" href="index.html">
+          <span class="iconfont icon-shouye1"></span>
+          <span class="m-footer-font">首页</span>
+        </a>
+      </div>
+    
+       <div class="col-xs-3 nav-fixed-bottom">
+        <a class="nav-bottom color-hover" id="p" href="new.html">
+          <span class="iconfont icon-rexiaochanpin"></span>
+          <span class="m-footer-font">热销商品</span>
+        </a>
+      </div>
+
+       <div class="col-xs-3 nav-fixed-bottom">
+        <a class="nav-bottom" id="p" href="cart.html">
+          <span class="iconfont icon-htmal5icon29"></span>
+          <span class="m-footer-font">购物车</span>
+        </a>
+      </div>
+      <div class="col-xs-3 nav-fixed-bottom">
+        <a class="nav-bottom" id="p" href="personal.html">
+          <span class="iconfont icon-yonghudianji"></span>
+          <span class="m-footer-font">会员中心</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+ 
+
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('#myCarousel').carousel({
+    interval: 2000
+    });
+    $('#myCarousel-gao').carousel({
+    interval: 2000
+    });
+  })
+</script>
+</body>
+</html>

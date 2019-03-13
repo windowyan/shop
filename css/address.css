@@ -1,0 +1,161 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+.order{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.order .iconfont{
+    font-size: 18px;
+}
+.nav-order{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color:#f8f8f8;
+    z-index: 100;
+}
+.address{
+    margin-top: 37px;
+}
+.form-group{
+    margin-bottom: 0;
+    background-color: white;
+}
+.form-group .form-control{
+    border:none;
+    border-radius: 0;
+    height: 40px;
+    padding: 12px;
+}
+.integral{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+.integral-bottom{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+.integral span{
+    color: white;
+}
+.integral-span{
+    font-size: 58px;
+    font-weight: 600;
+}
+.integral-position{
+    top: 256px;
+}
+.integral-item{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 10px;
+}
+.integral-item-index{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.item{
+    margin: 0;
+    height: 290px;
+    background-color: white;
+    margin-top: 10px;
+    overflow-y: scroll;
+}
+.item::-webkit-scrollbar{
+        display: none;
+}
+.item-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.day-item{
+    font-size: 14px;
+    font-weight: 600;
+}
+.span-item{
+    font-size: 12px;
+    color: #ccc;
+}
+.number-value{
+    font-size: 26px;
+}
+.item-number{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid #ccc;
+}
+.integral-item-index .icon-shezhi ,.integral-item-index .icon-guizeshuoming ,.integral-item-index .icon-duihuanshangcheng{
+    font-size: 22px;
+}
+.m_kk{
+    font-size: 14px;
+}
+.modal-dialog{
+    height: 100%;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.modal-content{
+    width: 90%;
+}
+
+.modify{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+}
+.modify label{
+    white-space: nowrap;
+    margin-left: 10px;
+}
+@media screen and (max-width: 325px) {
+  .item{
+    height: 216px;
+  }
+  .m_kk{
+    font-size: 12px;
+ }
+}
+
+
+
+
+@media screen and (min-width: 325px) {
+  .integral{
+    padding-top: 60px;
+    padding-bottom: 120px;
+  }
+  .integral-position{
+    top: 275px;
+}
+.integral-item{
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+}

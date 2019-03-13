@@ -1,0 +1,9 @@
+
+* {
+	margin:0;
+	padding:0;
+}
+.dm_join{height: 22px;overflow: hidden;text-align:center;width:1200px;margin:10px auto;}
+.dm_join span{font-size:16px;float:left;}
+.dm_join  div ul{text-align:left;}
+.dm_join  div ul li{padding:5px;font-size:16px;color:#dc2738;}

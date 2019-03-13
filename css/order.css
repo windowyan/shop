@@ -1,0 +1,211 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.order{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #ccc;
+}
+
+.order .iconfont{
+    font-size: 18px;
+}
+.nav-order{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+}
+.order-table{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.order-table a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+.order-table .color-font{
+    border-bottom: 2px solid red;
+    color: red;
+}
+
+.order-chanpin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.order-chanpin-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    border-bottom: 1px solid #ccc;
+}
+.order-img-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #ccc;
+}
+.order-img{
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+   padding-right: 6px;
+}
+.order-img img{
+    height: 60px;
+}
+
+    
+.order-center{
+    display: flex;
+    width: 60%;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 6px;
+}
+.order-center p{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    font-size: 12px;
+}
+.order-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.order-right-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    margin-top: 8px;
+}
+.shuoming-order{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 6px;
+    padding-top: 6px;
+}
+.order-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.order-footer-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+    align-items: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.order-footer-top-right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.order-footer-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+    align-items: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.order-footer-bottom span{
+    width: 80px;
+    padding:4px 0;
+    font-size: 13px;
+    border: 1px solid #ccc;
+    border-radius: 14px;
+    text-align: center;
+}
+.order-footer-top-right span{
+    font-size: 13px;
+    color: #ccc;
+}
+/*优惠卷*/
+.item-coupon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+.item-img-coupon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    width: 100%;
+}
+.item-img-coupon img{
+    height: 90px;
+    width: 100%;
+    border-radius: 10px;
+}
+.coupon{
+    margin-top: 80px;
+}
+@media screen and (max-width: 325px) {
+  .order-table a{
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+}
+
+
+
+
+@media screen and (min-width: 325px) {
+ .order{
+    padding-bottom:8px;
+    padding-top: 8px;
+ }
+ .order .iconfont{
+    font-size: 22px;
+}
+.order-center p{
+    font-size: 14px;
+}
+.coupon{
+    margin-top: 94px;
+}
+.item-img-coupon,.item-img-coupon img{
+    height: 100px;
+}
+}
